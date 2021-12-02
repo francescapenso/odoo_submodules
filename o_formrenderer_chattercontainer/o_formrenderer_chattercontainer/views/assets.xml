@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<odoo>
+    <template id="assets_backend" name="mgc purchase assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/scss" href="/o_formrenderer_chattercontainer/static/src/scss/form_renderer.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/o_formrenderer_chattercontainer/static/src/scss/form_view.scss"/>
+        </xpath>
+    </template>
+</odoo>
