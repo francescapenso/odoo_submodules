@@ -25,9 +25,9 @@ class PurchaseOrder(models.Model):
                                    })
         context = {
             'default_order_line': order_line,
-            'default_x_studio_data_carico': self.x_studio_data_di_carico,
-            'default_x_studio_data_consegna': self.x_studio_data_di_consegna,
-            'default_x_studio_incoterms': self.x_studio_incoterms_1,
+            #'default_x_studio_data_carico': self.x_studio_data_di_carico,
+            #'default_x_studio_data_consegna': self.x_studio_data_di_consegna,
+            #'default_x_studio_incoterms': self.x_studio_incoterms_1,
             # 'x_studio_pickup_address': self.x_studio_data_carico,
             'default_name': self.x_studio_customer_ref,
         }
