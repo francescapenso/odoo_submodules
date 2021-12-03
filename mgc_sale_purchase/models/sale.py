@@ -26,9 +26,9 @@ class SaleOrder(models.Model):
                                    })
         context = {
             'default_origin': self.name,
-            'default_x_studio_data_di_carico': self.x_studio_data_carico,
-            'default_x_studio_data_di_consegna': self.x_studio_data_consegna,
-            'default_x_studio_incoterms_1': self.x_studio_incoterms,
+            #'default_x_studio_data_di_carico': self.x_studio_data_carico,
+            #'default_x_studio_data_di_consegna': self.x_studio_data_consegna,
+            #'default_x_studio_incoterms_1': self.x_studio_incoterms,
             # 'x_studio_delivery_address': self.name,
             'default_x_studio_customer_ref': self.name,
             'default_order_line': order_line,
