@@ -7,7 +7,7 @@
         <field name="inherit_id" ref="sale.view_order_form"/>
         <field name="arch" type="xml">
             <xpath expr="//button[@name='action_draft']" position="after">
-                <button name="create_purchase_orders" string="Purchase Orders" type="object"/>
+                <button name="create_purchase_orders" string="Crea Ordine di Acquisto" type="object"/>
             </xpath>
         </field>
     </record>
